@@ -1,0 +1,64 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Guitar Fundamentals",
+      "slug": "guitar-fundamentals",
+      "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/courses/guitar.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Piano for Beginners",
+      "slug": "piano-for-beginners",
+      "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
+      "price": 89.99,
+      "instructor": "Emily Smith",
+      "isFeatured": false,
+      "image": "/courses/piano.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Drumming Essentials",
+      "slug": "drumming-essentials",
+      "description": "Master rhythm, timing, and coordination in this dynamic drumming course for all levels.",
+      "price": 79.99,
+      "instructor": "Michael Brown",
+      "isFeatured": true,
+      "image": "/courses/drums.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Advanced Music Theory",
+      "slug": "advanced-music-theory",
+      "description": "Deepen your understanding of harmony, melody, and composition techniques.",
+      "price": 119.99,
+      "instructor": "Sarah Johnson",
+      "isFeatured": true,
+      "image": "/courses/theory.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Vocal Training Masterclass",
+      "slug": "vocal-training-masterclass",
+      "description": "Enhance your vocal range, tone, and confidence with this intensive singing program.",
+      "price": 109.99,
+      "instructor": "David Lee",
+      "isFeatured": true,
+      "image": "/courses/vocals.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Music Production with Ableton",
+      "slug": "music-production-ableton",
+      "description": "Create, mix, and master your own tracks using industry-standard tools and workflows.",
+      "price": 129.99,
+      "instructor": "Sophia Martinez",
+      "isFeatured": true,
+      "image": "/courses/ableton.jpg"
+    }
+  ]
+}
