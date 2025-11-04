@@ -6,7 +6,7 @@ import {
   useMotionTemplate,
   useMotionValue,
   useTransform,
-} from "framer-motion";
+} from "motion/react";
 import { useRef } from "react";
 import { cn } from "@/utils/utils";
 
@@ -32,7 +32,7 @@ export function Button({
   return (
     <Component
       className={cn(
-        "relative h-16 w-40 overflow-hidden bg-transparent p-px text-xl",
+        "relative h-16 w-40 overflow-hidden bg-transparent p-1px text-xl",
         containerClassName,
       )}
       style={{
@@ -82,16 +82,15 @@ export const MovingBorder = ({
   ry?: string;
   [key: string]: any;
 }) => {
-  const pathRef = useRef<any>();
+  const pathRef = useRef<any>(null);
   const progress = useMotionValue<number>(0);
 
-  useAnimationFrame((time) => {
-    const length = pathRef.current?.getTotalLength();
-    if (length) {
-      const pxPerMillisecond = length / duration;
-      progress.set((time * pxPerMillisecond) % length);
-    }
+  useAnimationFrame((time: number) => {
+    const length = pathRef.current?.getTotalLength?.();
+    if (!length) return;
+    progress.set((time % 10000) / 10000);
   });
+  
 
   const x = useTransform(
     progress,

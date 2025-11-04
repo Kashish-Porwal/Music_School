@@ -28,7 +28,7 @@
       "price": 79.99,
       "instructor": "Michael Brown",
       "isFeatured": true,
-      "image": "/courses/drums.jpg"
+      "image": "/courses/drum.jpg"
     },
     {
       "id": 4,
@@ -58,7 +58,7 @@
       "price": 129.99,
       "instructor": "Sophia Martinez",
       "isFeatured": true,
-      "image": "/courses/ableton.jpg"
+      "image": "/courses/music-prod.jpg"
     }
   ]
 }
